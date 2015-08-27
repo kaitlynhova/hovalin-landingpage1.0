@@ -1,0 +1,77 @@
+/* GENERAL STYLES */
+
+body {
+  font-family: "europa",sans-serif !important;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 17px;
+  border: solid 1px #ccc;
+  border-radius: 0px;
+  margin-bottom: 20px !important;
+  outline: 0;
+  text-align: center;
+  font-size: 20px !important;
+  letter-spacing: 1px;
+  font-weight: 100 !important;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+/* HERO STYLES */
+#hero{
+  text-align: center;
+}
+
+#hero img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding-top: 100px;
+}
+
+#hero h3 {
+  text-align: center;
+  font-family: "europa",sans-serif !important;
+}
+
+/* SIGN UP STYLES */
+
+#signup .container{
+  width: 100%;
+  max-width: 475px;
+}
+
+#signup .datlabel{
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-family: "europa",sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-color: #2F678F;
+    border: 0px;
+    transition: .5s;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+input[type="submit"]:hover{
+   opacity: .6;
+}
+
+@media (max-width: 768px) {
+  .mobile-sidepadding {
+    padding: 15px !important;
+  }
+}
