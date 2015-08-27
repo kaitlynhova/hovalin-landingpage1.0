@@ -4,7 +4,12 @@ body {
   font-family: "europa",sans-serif !important;
 }
 
-
+.hey{
+  text-align:center;
+  color: #a7a9ab;
+  letter-spacing: 1px;
+  font-family: "europa",sans-serif  !important;
+}
 
 input {
   width: 100%;
@@ -26,6 +31,14 @@ input {
 /* HERO STYLES */
 #hero{
   text-align: center;
+}
+
+#hero .description{
+  font-family: "europa",sans-serif  !important;
+  font-style: italic;
+  font-weight: 200;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 #hero img{
