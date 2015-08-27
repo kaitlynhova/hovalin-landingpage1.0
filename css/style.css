@@ -83,6 +83,8 @@ input[type="submit"]:hover{
    opacity: .6;
 }
 
+/* MOBILE STYLES */
+
 @media (max-width: 768px) {
   .mobile-sidepadding {
     padding: 15px !important;
